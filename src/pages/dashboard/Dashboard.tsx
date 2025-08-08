@@ -385,6 +385,17 @@ const Dashboard: React.FC = () => {
             </span>
           </div>
         )}
+        
+        {/* Link para conversão de vídeos */}
+        <div className="mt-3">
+          <Link 
+            to="/dashboard/conversao-videos"
+            className="text-xs text-orange-700 hover:text-orange-900 underline flex items-center"
+          >
+            <Settings className="h-3 w-3 mr-1" />
+            Otimizar vídeos para economizar espaço
+          </Link>
+        </div>
       </div>
 
       {/* Status das Transmissões Ativas */}
